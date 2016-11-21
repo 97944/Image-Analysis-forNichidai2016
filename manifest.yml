@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Image-Analysis-forNichidai2016
+  host: Image-Analysis-forNichidai2016
+  disk_quota: 1024M
+  services:
+  - visual-recognition-service
